@@ -1,0 +1,156 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "done": "Done",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "empty": "Nothing here yet",
+    "search": "Search",
+    "filter": "Filter",
+    "all": "All",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "amount": "Amount",
+    "note": "Note",
+    "date": "Date",
+    "type": "Type"
+  },
+  "auth": {
+    "login": "Log In",
+    "logout": "Log Out",
+    "email": "Email address",
+    "welcomeBack": "Welcome back",
+    "sendCode": "Send Code",
+    "verifyCode": "Verify",
+    "verifying": "Verifying...",
+    "enterCode": "Enter your code",
+    "codeSentTo": "We sent a 6-digit code to",
+    "resendCode": "Resend code",
+    "resendIn": "Resend code in {{seconds}}s",
+    "invalidCode": "Invalid code",
+    "codeResent": "Code resent",
+    "continueWithGoogle": "Continue with Google"
+  },
+  "onboarding": {
+    "step1Title": "Choose your currency",
+    "step1Subtitle": "Your main currency for tracking",
+    "step2Title": "Add your first account",
+    "step2Subtitle": "Where do you keep your money?",
+    "step3Title": "Set your first budget",
+    "step3Subtitle": "How much do you want to spend on?",
+    "accountName": "Account name",
+    "accountType": "Account type",
+    "openingBalance": "Opening balance",
+    "types": {
+      "CASH": "Cash",
+      "BANK": "Bank",
+      "MOBILE_WALLET": "Mobile Wallet"
+    },
+    "getStarted": "Get started"
+  },
+  "tabs": {
+    "dashboard": "Dashboard",
+    "transactions": "Transactions",
+    "budgets": "Budgets",
+    "goals": "Goals",
+    "settings": "Settings"
+  },
+  "dashboard": {
+    "totalBalance": "Total Balance",
+    "greeting": "Hello",
+    "recentTransactions": "Recent Transactions",
+    "noAccounts": "No accounts yet",
+    "noAccountsSubtitle": "Add your first account to get started",
+    "addTransaction": "Add transaction"
+  },
+  "transactions": {
+    "title": "Transactions",
+    "add": "Add Transaction",
+    "income": "Income",
+    "expense": "Expense",
+    "transfer": "Transfer",
+    "category": "Category",
+    "account": "Account",
+    "noTransactions": "No transactions",
+    "noTransactionsSubtitle": "Add your first transaction",
+    "deleteConfirm": "Delete this transaction?",
+    "searchPlaceholder": "Search transactions...",
+    "thisWeek": "This Week",
+    "thisMonth": "This Month",
+    "threeMonths": "3 Months",
+    "custom": "Custom"
+  },
+  "budgets": {
+    "title": "Budgets",
+    "add": "Add Budget",
+    "noBudgets": "No budgets",
+    "noBudgetsSubtitle": "Set a budget to track your spending",
+    "monthlyLimit": "Monthly limit",
+    "spent": "Spent",
+    "remaining": "Remaining",
+    "rollover": "Roll over unused amount",
+    "alert80": "You've used 80% of your {{category}} budget",
+    "alert100": "You've exceeded your {{category}} budget"
+  },
+  "goals": {
+    "title": "Goals",
+    "add": "Add Goal",
+    "noGoals": "No goals",
+    "noGoalsSubtitle": "Set a savings goal to get started",
+    "target": "Target amount",
+    "saved": "Saved",
+    "deadline": "Deadline (optional)",
+    "daysLeft": "{{count}} days left",
+    "reached": "Goal reached!",
+    "overdue": "Overdue",
+    "quickAdd": "Add savings",
+    "emoji": "Choose an emoji"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "currency": "Base Currency",
+    "biometrics": "Biometric Lock",
+    "biometricsDescription": "Require Face ID / fingerprint on open",
+    "notifications": "Notifications",
+    "about": "About",
+    "version": "Version",
+    "logout": "Log Out",
+    "logoutConfirm": "Are you sure you want to log out?",
+    "languages": {
+      "ar": "العربية",
+      "fr": "Français",
+      "en": "English"
+    }
+  },
+  "sync": {
+    "synced": "All synced",
+    "pending": "Syncing...",
+    "retrying": "Retrying...",
+    "error": "Sync error"
+  },
+  "conflict": {
+    "title": "Conflict detected",
+    "description": "This item was changed on another device",
+    "keepYours": "Keep mine",
+    "keepTheirs": "Keep theirs"
+  },
+  "categories": {
+    "food": "Food & Dining",
+    "transport": "Transport",
+    "shopping": "Shopping",
+    "bills": "Bills & Utilities",
+    "health": "Health",
+    "entertainment": "Entertainment",
+    "education": "Education",
+    "savings": "Savings",
+    "salary": "Salary",
+    "other": "Other"
+  }
+}

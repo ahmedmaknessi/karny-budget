@@ -1,0 +1,156 @@
+{
+  "common": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "confirm": "Confirmer",
+    "back": "Retour",
+    "next": "Suivant",
+    "done": "Terminé",
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "empty": "Rien ici pour l'instant",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "all": "Tout",
+    "today": "Aujourd'hui",
+    "yesterday": "Hier",
+    "amount": "Montant",
+    "note": "Note",
+    "date": "Date",
+    "type": "Type"
+  },
+  "auth": {
+    "login": "Se connecter",
+    "logout": "Se déconnecter",
+    "email": "Adresse e-mail",
+    "welcomeBack": "Bon retour",
+    "sendCode": "Envoyer le code",
+    "verifyCode": "Vérifier",
+    "verifying": "Vérification...",
+    "enterCode": "Entrez votre code",
+    "codeSentTo": "Nous avons envoyé un code à 6 chiffres à",
+    "resendCode": "Renvoyer le code",
+    "resendIn": "Renvoyer le code dans {{seconds}}s",
+    "invalidCode": "Code invalide",
+    "codeResent": "Code renvoyé",
+    "continueWithGoogle": "Continuer avec Google"
+  },
+  "onboarding": {
+    "step1Title": "Choisissez votre devise",
+    "step1Subtitle": "Votre devise principale pour le suivi",
+    "step2Title": "Ajoutez votre premier compte",
+    "step2Subtitle": "Où gardez-vous votre argent ?",
+    "step3Title": "Définissez votre premier budget",
+    "step3Subtitle": "Combien voulez-vous dépenser pour ?",
+    "accountName": "Nom du compte",
+    "accountType": "Type de compte",
+    "openingBalance": "Solde d'ouverture",
+    "types": {
+      "CASH": "Espèces",
+      "BANK": "Banque",
+      "MOBILE_WALLET": "Portefeuille mobile"
+    },
+    "getStarted": "Commencer"
+  },
+  "tabs": {
+    "dashboard": "Tableau de bord",
+    "transactions": "Transactions",
+    "budgets": "Budgets",
+    "goals": "Objectifs",
+    "settings": "Paramètres"
+  },
+  "dashboard": {
+    "totalBalance": "Solde total",
+    "greeting": "Bonjour",
+    "recentTransactions": "Transactions récentes",
+    "noAccounts": "Aucun compte",
+    "noAccountsSubtitle": "Ajoutez votre premier compte pour commencer",
+    "addTransaction": "Ajouter une transaction"
+  },
+  "transactions": {
+    "title": "Transactions",
+    "add": "Ajouter une transaction",
+    "income": "Revenu",
+    "expense": "Dépense",
+    "transfer": "Virement",
+    "category": "Catégorie",
+    "account": "Compte",
+    "noTransactions": "Aucune transaction",
+    "noTransactionsSubtitle": "Ajoutez votre première transaction",
+    "deleteConfirm": "Supprimer cette transaction ?",
+    "searchPlaceholder": "Rechercher des transactions...",
+    "thisWeek": "Cette semaine",
+    "thisMonth": "Ce mois",
+    "threeMonths": "3 mois",
+    "custom": "Personnalisé"
+  },
+  "budgets": {
+    "title": "Budgets",
+    "add": "Ajouter un budget",
+    "noBudgets": "Aucun budget",
+    "noBudgetsSubtitle": "Définissez un budget pour suivre vos dépenses",
+    "monthlyLimit": "Limite mensuelle",
+    "spent": "Dépensé",
+    "remaining": "Restant",
+    "rollover": "Reporter le montant non utilisé",
+    "alert80": "Vous avez utilisé 80% de votre budget {{category}}",
+    "alert100": "Vous avez dépassé votre budget {{category}}"
+  },
+  "goals": {
+    "title": "Objectifs",
+    "add": "Ajouter un objectif",
+    "noGoals": "Aucun objectif",
+    "noGoalsSubtitle": "Définissez un objectif d'épargne pour commencer",
+    "target": "Montant cible",
+    "saved": "Épargné",
+    "deadline": "Date limite (optionnel)",
+    "daysLeft": "{{count}} jours restants",
+    "reached": "Objectif atteint !",
+    "overdue": "En retard",
+    "quickAdd": "Ajouter une épargne",
+    "emoji": "Choisir un emoji"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "language": "Langue",
+    "currency": "Devise principale",
+    "biometrics": "Verrouillage biométrique",
+    "biometricsDescription": "Requiert Face ID / empreinte à l'ouverture",
+    "notifications": "Notifications",
+    "about": "À propos",
+    "version": "Version",
+    "logout": "Se déconnecter",
+    "logoutConfirm": "Êtes-vous sûr de vouloir vous déconnecter ?",
+    "languages": {
+      "ar": "العربية",
+      "fr": "Français",
+      "en": "English"
+    }
+  },
+  "sync": {
+    "synced": "Tout synchronisé",
+    "pending": "Synchronisation...",
+    "retrying": "Nouvelle tentative...",
+    "error": "Erreur de synchronisation"
+  },
+  "conflict": {
+    "title": "Conflit détecté",
+    "description": "Cet élément a été modifié sur un autre appareil",
+    "keepYours": "Garder le mien",
+    "keepTheirs": "Garder le leur"
+  },
+  "categories": {
+    "food": "Alimentation",
+    "transport": "Transport",
+    "shopping": "Shopping",
+    "bills": "Factures & Services",
+    "health": "Santé",
+    "entertainment": "Divertissement",
+    "education": "Éducation",
+    "savings": "Épargne",
+    "salary": "Salaire",
+    "other": "Autre"
+  }
+}

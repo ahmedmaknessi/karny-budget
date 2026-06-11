@@ -1,0 +1,156 @@
+{
+  "common": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "confirm": "تأكيد",
+    "back": "رجوع",
+    "next": "التالي",
+    "done": "تم",
+    "loading": "جارٍ التحميل...",
+    "error": "حدث خطأ ما",
+    "empty": "لا يوجد شيء هنا بعد",
+    "search": "بحث",
+    "filter": "تصفية",
+    "all": "الكل",
+    "today": "اليوم",
+    "yesterday": "أمس",
+    "amount": "المبلغ",
+    "note": "ملاحظة",
+    "date": "التاريخ",
+    "type": "النوع"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "email": "البريد الإلكتروني",
+    "welcomeBack": "مرحباً بعودتك",
+    "sendCode": "إرسال الرمز",
+    "verifyCode": "تحقق",
+    "verifying": "جارٍ التحقق...",
+    "enterCode": "أدخل الرمز",
+    "codeSentTo": "أرسلنا رمزاً مكوناً من 6 أرقام إلى",
+    "resendCode": "إعادة إرسال الرمز",
+    "resendIn": "إعادة إرسال الرمز خلال {{seconds}} ثانية",
+    "invalidCode": "رمز غير صالح",
+    "codeResent": "تم إعادة إرسال الرمز",
+    "continueWithGoogle": "المتابعة مع جوجل"
+  },
+  "onboarding": {
+    "step1Title": "اختر عملتك",
+    "step1Subtitle": "عملتك الرئيسية للتتبع",
+    "step2Title": "أضف حسابك الأول",
+    "step2Subtitle": "أين تحتفظ بأموالك؟",
+    "step3Title": "حدد ميزانيتك الأولى",
+    "step3Subtitle": "كم تريد أن تنفق على؟",
+    "accountName": "اسم الحساب",
+    "accountType": "نوع الحساب",
+    "openingBalance": "الرصيد الافتتاحي",
+    "types": {
+      "CASH": "نقداً",
+      "BANK": "بنك",
+      "MOBILE_WALLET": "محفظة موبايل"
+    },
+    "getStarted": "ابدأ الآن"
+  },
+  "tabs": {
+    "dashboard": "لوحة التحكم",
+    "transactions": "المعاملات",
+    "budgets": "الميزانيات",
+    "goals": "الأهداف",
+    "settings": "الإعدادات"
+  },
+  "dashboard": {
+    "totalBalance": "الرصيد الإجمالي",
+    "greeting": "مرحباً",
+    "recentTransactions": "المعاملات الأخيرة",
+    "noAccounts": "لا توجد حسابات بعد",
+    "noAccountsSubtitle": "أضف حسابك الأول للبدء",
+    "addTransaction": "إضافة معاملة"
+  },
+  "transactions": {
+    "title": "المعاملات",
+    "add": "إضافة معاملة",
+    "income": "دخل",
+    "expense": "مصروف",
+    "transfer": "تحويل",
+    "category": "الفئة",
+    "account": "الحساب",
+    "noTransactions": "لا توجد معاملات",
+    "noTransactionsSubtitle": "أضف معاملتك الأولى",
+    "deleteConfirm": "حذف هذه المعاملة؟",
+    "searchPlaceholder": "البحث في المعاملات...",
+    "thisWeek": "هذا الأسبوع",
+    "thisMonth": "هذا الشهر",
+    "threeMonths": "٣ أشهر",
+    "custom": "مخصص"
+  },
+  "budgets": {
+    "title": "الميزانيات",
+    "add": "إضافة ميزانية",
+    "noBudgets": "لا توجد ميزانيات",
+    "noBudgetsSubtitle": "حدد ميزانية لتتبع إنفاقك",
+    "monthlyLimit": "الحد الشهري",
+    "spent": "المنفق",
+    "remaining": "المتبقي",
+    "rollover": "ترحيل المبلغ غير المستخدم",
+    "alert80": "لقد استخدمت 80% من ميزانية {{category}}",
+    "alert100": "لقد تجاوزت ميزانية {{category}}"
+  },
+  "goals": {
+    "title": "الأهداف",
+    "add": "إضافة هدف",
+    "noGoals": "لا توجد أهداف",
+    "noGoalsSubtitle": "حدد هدفاً للادخار للبدء",
+    "target": "المبلغ المستهدف",
+    "saved": "المدخر",
+    "deadline": "الموعد النهائي (اختياري)",
+    "daysLeft": "{{count}} يوم متبقٍ",
+    "reached": "تم تحقيق الهدف!",
+    "overdue": "متأخر",
+    "quickAdd": "إضافة مدخرات",
+    "emoji": "اختر إيموجي"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "language": "اللغة",
+    "currency": "العملة الأساسية",
+    "biometrics": "القفل البيومتري",
+    "biometricsDescription": "يتطلب Face ID / بصمة عند الفتح",
+    "notifications": "الإشعارات",
+    "about": "حول التطبيق",
+    "version": "الإصدار",
+    "logout": "تسجيل الخروج",
+    "logoutConfirm": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+    "languages": {
+      "ar": "العربية",
+      "fr": "Français",
+      "en": "English"
+    }
+  },
+  "sync": {
+    "synced": "تمت المزامنة",
+    "pending": "جارٍ المزامنة...",
+    "retrying": "إعادة المحاولة...",
+    "error": "خطأ في المزامنة"
+  },
+  "conflict": {
+    "title": "تم اكتشاف تعارض",
+    "description": "تم تغيير هذا العنصر على جهاز آخر",
+    "keepYours": "الاحتفاظ بالنسخة الخاصة بي",
+    "keepTheirs": "الاحتفاظ بنسختهم"
+  },
+  "categories": {
+    "food": "الطعام والمطاعم",
+    "transport": "المواصلات",
+    "shopping": "التسوق",
+    "bills": "الفواتير والخدمات",
+    "health": "الصحة",
+    "entertainment": "الترفيه",
+    "education": "التعليم",
+    "savings": "المدخرات",
+    "salary": "الراتب",
+    "other": "أخرى"
+  }
+}
