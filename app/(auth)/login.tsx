@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import {
   View,
   Text,
@@ -14,7 +14,7 @@ import { router } from 'expo-router';
 import Toast from 'react-native-toast-message';
 import * as Haptics from 'expo-haptics';
 import { requestOtp } from '@/lib/auth/otp';
-import { useGoogleAuth, signInWithGoogleToken } from '@/lib/auth/google';
+import { signInWithGoogle } from '@/lib/auth/google';
 import { t } from '@/i18n';
 import { fonts, radius } from '@/constants/theme';
 import { useColors } from '@/lib/theme/useColors';
@@ -25,27 +25,6 @@ export default function LoginScreen() {
   const [loading, setLoading] = useState(false);
   const [googleLoading, setGoogleLoading] = useState(false);
   const c = useColors();
-
-  const { request, response, promptAsync } = useGoogleAuth();
-
-  // Handle Google OAuth response
-  useEffect(() => {
-    if (response?.type === 'success') {
-      const idToken = response.params?.id_token;
-      if (idToken) {
-        setGoogleLoading(true);
-        signInWithGoogleToken(idToken)
-          .then(() => {
-            Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-          })
-          .catch((err: unknown) => {
-            const message = err instanceof Error ? err.message : 'Google sign-in failed';
-            Toast.show({ type: 'error', text1: message });
-          })
-          .finally(() => setGoogleLoading(false));
-      }
-    }
-  }, [response]);
 
   async function handleSendCode() {
     const trimmed = email.trim();
@@ -67,11 +46,15 @@ export default function LoginScreen() {
   }
 
   async function handleGoogleSignIn() {
+    setGoogleLoading(true);
     try {
-      await promptAsync();
+      await signInWithGoogle();
+      Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
     } catch (err: unknown) {
       const message = err instanceof Error ? err.message : 'Google sign-in failed';
       Toast.show({ type: 'error', text1: message });
+    } finally {
+      setGoogleLoading(false);
     }
   }
 
@@ -164,7 +147,7 @@ export default function LoginScreen() {
             {/* Continue with Google */}
             <TouchableOpacity
               onPress={handleGoogleSignIn}
-              disabled={!request || isAnyLoading}
+              disabled={isAnyLoading}
               style={{
                 backgroundColor: c.surface2,
                 borderWidth: 1,
@@ -175,7 +158,7 @@ export default function LoginScreen() {
                 flexDirection: 'row',
                 justifyContent: 'center',
                 gap: 10,
-                opacity: !request || isAnyLoading ? 0.5 : 1,
+                opacity: isAnyLoading ? 0.5 : 1,
               }}
             >
               {googleLoading ? (
